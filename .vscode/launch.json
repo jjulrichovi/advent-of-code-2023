@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run AdventOfCode2023",
+      "request": "launch",
+      "mainClass": "AdventOfCode2023",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "debugpy",
+      "name": "Python: 04.py",
+      "request": "launch",
+      "program": "${workspaceFolder}\\python\\04.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "debugpy",
+      "name": "Python: 05.py",
+      "request": "launch",
+      "program": "${workspaceFolder}\\python\\05.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
